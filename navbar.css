@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+/*body of all pages*/
+.html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+  color: #222;
+}
+
+/*all .col will have padding*/
+.col {
+  padding: 10px;
+}
+/*Forms section */
+#log-out {
+  float: right;
+}
+/* Navbar and header section */
+
+/* background image height, and settings*/
+#header {
+  background: linear-gradient(rgba(80, 78, 78, 0.8), rgba(0, 0, 0, 0.8)),
+    url("img/branding/header.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  border-radius: 0px;
+}
+
+/*Header text center*/
+#head {
+  color: #ff914d;
+  padding-top: 10px;
+  text-align: center;
+}
+.h1 {
+  color: #ff914d;
+}
+/*Header logo center*/
+#validus {
+  display: none;
+}
+#logo-mobile {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Forms section*/
+
+/*Logo size for the sign up and login forms*/
+#form-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*Log in button house style*/
+.btn-secondary {
+  background-color: #ff914d;
+  border-color: #ff914d;
+}
+/*if there is a sign up or login error text is red*/
+#error {
+  color: red;
+}
+/*No signup errors then text will be green*/
+#successful {
+  color: green;
+}
+
+/*terms and conditions text center*/
+.form-check {
+  text-align: center;
+}
+
+/*Recommended routine buttons*/
+#pairO {
+  background-color: #ff914d;
+  border-color: #ff914d;
+}
+
+/*Index Page*/
+
+/* hr tag using house style colour and is larger */
+#indexhr {
+  background-color: #ff914d;
+  border-color: #ff914d;
+  height: 20px;
+  border-radius: 10px;
+}
+
+/*Card height*/
+#terms {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: grey;
+}
+
+/*dynamic youtube video sizes*/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+/*dynamic youtube video sizes*/
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*text to warn users about health information*/
+#warning {
+  color: red;
+}
+/*profile page*/
+
+/*badge size is consistent*/
+#badge {
+  height: 200px;
+  width: auto;
+}
+
+/* tablet break point */
+@media (min-width: 768px) {
+  #validus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* mobile logo stops showing once it reaches tablet size */
+  #logo-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+}
